@@ -7,7 +7,7 @@ sheet = book.active
 
 
 def read(number: int) -> str:
-    text = sheet[f'A{number}'].value
+    text = str(sheet[f'A{number}'].value)
     return "".join(text.split())
 
 

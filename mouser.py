@@ -12,7 +12,7 @@ print('Запуск...')
 
 max_row = max_rows()
 
-for i in range(1930, max_row):
+for i in range(2920, max_row):
     item = read(i)
     new_product = {
         "SearchByKeywordRequest": {
